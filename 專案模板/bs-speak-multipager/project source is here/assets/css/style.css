@@ -12,9 +12,6 @@
 /*=====================================
    GENERAL STYLE SECTION
     ===================================*/
-h1{
-  font-size: 28px;
-}
 *:before{
   color: #96a6ca;
 }
@@ -34,6 +31,10 @@ body {
 }
 .text-center {
     text-align:center;
+}
+
+.general-subhead h1{
+  font-size: 28px;
 }
 
 .wrapper{
