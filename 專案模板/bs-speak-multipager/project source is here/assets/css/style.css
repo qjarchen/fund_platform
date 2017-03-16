@@ -12,8 +12,21 @@
 /*=====================================
    GENERAL STYLE SECTION
     ===================================*/
+
+h1{
+  font-size: 28px;
+}
+*:before{
+  color: #96a6ca;
+}
+
+*:before{
+
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: '', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     margin-top:70px;
     font-size:13px;
     line-height:25px;
@@ -53,7 +66,7 @@ section {
 
 /*Menu Back Color*/
 .menu-back {
-    background-color:#34296F;  
+    background-color:#123a4d;  
 }
 /*Logo Image */
 .navbar-brand-logo {
@@ -66,12 +79,12 @@ section {
 }
 /*top-menu links color on hover*/
     .navbar-default .navbar-nav > li > a:hover {
-        color: #ff6a00;
+        color: #96a6ca;
     }
 
 /*top-menu links & margin*/    
 .navbar-nav > li > a {
-    border-right: 1px solid #3D3577;
+    border-right: 1px solid #123444;
     margin: 5px 0px 5px 0px;
 }
 
@@ -358,7 +371,7 @@ padding:30px;
 
 #footer-sec {
 
-   background-color:#34296F; 
+   background-color:#123a4d; 
    color:#fff;
    padding:20px;
 }
@@ -367,14 +380,14 @@ padding:30px;
 }
 #footer-sec span {
     font-size:20px;
-    color:#ff6a00;
+    color:#96a6ca;
 }
 #footer-sec small {
     display:table-cell;
     color: #C5C5C5;
 }
 #footer-sec p {
-   border-right: 1px solid #3D3577;
+   border-right: 1px solid #123444;
    padding-right:10px;
 
 }
@@ -383,12 +396,12 @@ padding:30px;
     font-size:14px;
 }
 #blog-footer-div {
-     border-right: 1px solid #3D3577;
+     border-right: 1px solid #123444;
       padding-right:10px;
 }
 #footser-end {
     text-align:right;
-  background-color:#21165F; 
+  background-color:#123a4d; 
    color:#fff;
    padding:10px;
 }
@@ -428,8 +441,8 @@ padding:30px;
  OUR SERVICES
  ===================================*/
 .general-subhead {
-    background-color: #2B3C69;
-    padding: 20px 100px 25px 100px;
+    background-color: #1e6080;
+    padding: 10px 100px 15px 100px;
     color: #fff;
 }
  #request-quote {
@@ -725,4 +738,19 @@ padding: 1px;
   .div-social-top{
    display:none!important;
   }
+}
+
+/*
+覆蓋bootstrap
+*/
+.btn-info{
+    color: #fff;
+    background-color: #8c9bbe;
+    border-color: #909eb9;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info{
+    color: #fff;
+    background-color: #7486af;
+    border-color: #7585a2;
 }
