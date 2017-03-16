@@ -26,6 +26,8 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
         <!--  Custom Style -->
         <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- 瀏覽器標籤小圖示 -->
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -57,7 +59,7 @@
                     </li>
                     <li>
                         <a href="my_design_product-list.html">上架列表 <i class="glyphicon glyphicon-shopping-cart"></i>
-                            <span>Availables</span>
+                            <span>Products</span>
                         </a>
                     </li>
                     <li>
@@ -71,11 +73,11 @@
                         </a>
                     </li>
                     <!-- 登入後顯示userpage_list.html -->
-                    <li>
-                        <a href="my_design_contactus.html">聯絡我們 <i class="fa fa-globe"></i>
-                            <span>Contact</span>
+                    <!--<li>
+                        <a href="my_design_userpage_list.html">我的帳戶 <i class="fa fa-globe"></i>
+                            <span>Account</span>
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -103,8 +105,8 @@
 
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signin-password">密碼</label>
-                        <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="密碼">
-                        <a href="#0" class="hide-password">隱藏</a>
+                        <input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="密碼">
+                        <a href="#0" class="hide-password">顯示</a>
                         <span class="cd-error-message">Error message here!</span>
                     </p>
 
@@ -138,8 +140,15 @@
 
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signup-password">密碼</label>
-                        <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="密碼">
-                        <a href="#0" class="hide-password">隱藏</a>
+                        <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="密碼">
+                        <a href="#0" class="hide-password">顯示</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password">再次輸入密碼</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="再次輸入密碼">
+                        <a href="#0" class="hide-password">顯示</a>
                         <span class="cd-error-message">Error message here!</span>
                     </p>
 
@@ -153,7 +162,7 @@
                     </p>
                 </form>
 
-                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                <a href="#0" class="cd-close-form">關閉</a>
             </div> <!-- cd-signup -->
 
             <div id="cd-reset-password"> <!-- reset password form -->

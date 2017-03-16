@@ -92,6 +92,7 @@ jQuery(document).ready(function($){
 	}
 
 	//REMOVE THIS - it's just to show error messages 
+	//示範:在電子郵件顯示錯誤訊息 input[type="email"]
 	formLogin.find('input[type="submit"]').on('click', function(event){
 		event.preventDefault();
 		formLogin.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
