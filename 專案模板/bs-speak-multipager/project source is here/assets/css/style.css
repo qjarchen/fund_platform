@@ -12,6 +12,17 @@
 /*=====================================
    GENERAL STYLE SECTION
     ===================================*/
+@import url(https://fonts.googleapis.com/css?family=Play);
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+
 *:before{
   color: #96a6ca;
 }
@@ -22,8 +33,9 @@
 
 body {
     height: 100%;
-    font-family: '', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
+    font-weight: 300;
     margin-top:70px;
     font-size:13px;
     line-height:25px;
@@ -80,6 +92,16 @@ section {
     max-height:60px;
     padding-bottom:10px;
 }
+
+/*Logo Name */
+.navbar-brand span{
+    max-height:60px;
+    padding-bottom:10px;
+    font-size: 30px;
+    color: #e6e6e6;
+    font-family: 'Play', sans-serif;
+}
+
 /*top-menu links color*/
 .navbar-default .navbar-nav > li > a {
     color: #FFF;
