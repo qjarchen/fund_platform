@@ -2008,6 +2008,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  
 }
 .btn:focus,
 .btn:active:focus,
@@ -4638,6 +4639,24 @@ a.list-group-item:hover,
 a.list-group-item:focus {
   text-decoration: none;
   background-color: #eaeaea;
+
+}
+
+a.userpage-item:hover,
+a.userpage-item:focus{
+  background-color: #ffffff;
+}
+
+a.list-group-item:hover > div{
+  background-color: #eaeaea;
+}
+a.list-group-item:hover > h1,
+a.list-group-item:hover > h2,
+a.list-group-item:hover > h3,
+a.list-group-item:hover > h4,
+a.list-group-item:hover > h5,
+a.list-group-item:hover > p{
+  text-decoration: underline;
 }
 a.list-group-item.active,
 a.list-group-item.active:hover,
