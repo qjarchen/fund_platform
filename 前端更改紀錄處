@@ -3,3 +3,9 @@
 1.加了userpage-list的超連結
 2.利用nav-bar檔統一各個檔案的nav-bar跟footer
 3.各個檔案接上preedit-page
+
+3.17 下午 林劭潔
+1.新增junk資料夾，把login跟register先放進去，因為用不到
+2.更正登入消失的bug，登入現在不會點擊完就消失
+3.更改term.html 使用者文件 部分內容
+
