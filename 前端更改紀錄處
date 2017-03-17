@@ -1,0 +1,5 @@
+3.17下午 陳彥哲改
+(我統一了檔名，my_design部分統一用底線，右邊檔名統一用減號-)
+1.加了userpage-list的超連結
+2.利用nav-bar檔統一各個檔案的nav-bar跟footer
+3.各個檔案接上preedit-page
