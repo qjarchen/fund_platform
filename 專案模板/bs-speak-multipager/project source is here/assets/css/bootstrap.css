@@ -4637,7 +4637,7 @@ a.list-group-item .list-group-item-heading {
 a.list-group-item:hover,
 a.list-group-item:focus {
   text-decoration: none;
-  background-color: #f1f1ff;
+  background-color: #eaeaea;
 }
 a.list-group-item.active,
 a.list-group-item.active:hover,
