@@ -5,40 +5,42 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-     <!--[if IE]>
+    <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-        <title> | WOTAN</title>
-        <link rel="stylesheet" href="assets/css/reset.css"> <!-- Reset Css -->
-        <!--  Bootstrap Style -->
-        <link href="assets/css/bootstrap.css" rel="stylesheet" />
-        <!--  Font-Awesome Style -->
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-        <!--  Font-Awesome Animation Style -->
-        <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
-        <!--  Pretty Photo Style -->
-        <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
-        <!--  Google Font Style -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-        <!--  Custom Style -->
-        <link href="assets/css/style.css" rel="stylesheet" />
-        <!-- 瀏覽器標籤小圖示 -->
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
-
+    <title> | WOTAN</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Reset Css -->
+    <!--  Bootstrap Style -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!--  Font-Awesome Style -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--  Font-Awesome Animation Style -->
+    <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
+    <!--  Pretty Photo Style -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <!--  Google Font Style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--  Custom Style -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- 瀏覽器標籤小圖示 -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="assets/js/modernizr.js"></script>
+    <!-- Modernizr -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
+</head>
 
-  </head>
-  <body>
+<body>
     <div class="navbar navbar-default navbar-fixed-top menu-back main-nav">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -52,9 +54,8 @@
                     <span>WOTAN</span>
                 </a>
             </div>
-            <div class="navbar-collapse collapse main-nav" >
+            <div class="navbar-collapse collapse main-nav">
                 <ul class="nav navbar-nav navbar-right ">
-
                     <li>
                         <a href="my_design_preedit.html">編輯器 <i class="glyphicon glyphicon-pencil"></i>
                             <span>Editor</span>
@@ -81,135 +82,117 @@
                             <span>Account</span>
                         </a>
                     </li> -->
-
                 </ul>
-
             </div>
-
         </div>
     </div>
-
-
-
-    <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
-        <div class="cd-user-modal-container-fluid"> <!-- this is the container-fluid wrapper -->
+    <div class="cd-user-modal">
+        <!-- this is the entire modal form, including the background -->
+        <div class="cd-user-modal-container-fluid">
+            <!-- this is the container-fluid wrapper -->
             <ul class="cd-switcher">
                 <li><a href="#0">登入</a></li>
                 <li><a href="#0">註冊</a></li>
             </ul>
-
-            <div id="cd-login"> <!-- log in form -->
+            <div id="cd-login">
+                <!-- log in form -->
                 <form class="cd-form">
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="signin-email">電子郵件</label>
                         <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="電子郵件">
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signin-password">密碼</label>
-                        <input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="密碼">
+                        <input class="full-width has-padding has-border" id="signin-password" type="password" placeholder="密碼">
                         <a href="#0" class="hide-password">顯示</a>
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <input type="checkbox" id="remember-me" checked>
                         <label for="remember-me">記住我</label>
                     </p>
-
                     <p class="fieldset">
                         <input class="full-width" type="submit" value="登入">
                     </p>
                 </form>
-                
                 <p class="cd-form-bottom-message"><a href="#0">忘記密碼?</a></p>
-                <!-- <a href="#0" class="cd-close-form">Close</a> -->
-            </div> <!-- cd-login -->
-
+            </div>
+            <!-- cd-login -->
             <!-- sign up form -->
-            <div id="cd-signup"> 
+            <div id="cd-signup">
                 <form class="cd-form">
                     <p class="fieldset">
                         <label class="image-replace cd-username" for="signup-username">使用者名稱</label>
                         <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="使用者名稱">
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="signup-email">電子郵件</label>
                         <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="電子郵件">
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signup-password">密碼</label>
-                        <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="密碼">
+                        <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="密碼">
                         <a href="#0" class="hide-password">顯示</a>
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signup-password">再次輸入密碼</label>
-                        <input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="再次輸入密碼">
+                        <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="再次輸入密碼">
                         <a href="#0" class="hide-password">顯示</a>
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <input type="checkbox" id="remember-me" checked>
                         <label for="remember-me">我同意<a href="my_design_terms.html">使用條款</a></label>
                     </p>
-
                     <p class="fieldset">
                         <input class="full-width has-padding" type="submit" value="註冊">
                     </p>
                 </form>
-
                 <a href="#0" class="cd-close-form">關閉</a>
-            </div>  
+            </div>
             <!-- cd-signup-->
-            <div id="cd-reset-password"> <!-- reset password form -->
+            <div id="cd-reset-password">
+                <!-- reset password form -->
                 <p class="cd-form-message">請輸入您的電子郵件地址。我們將傳送一組連結到該位址讓您重設密碼。</p>
-
                 <form class="cd-form">
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="reset-email">電子郵件</label>
                         <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
                         <span class="cd-error-message">輸入有誤!</span>
                     </p>
-
                     <p class="fieldset">
                         <input class="full-width has-padding" type="submit" value="重設密碼">
                     </p>
                 </form>
-
                 <p class="cd-form-bottom-message"><a href="#0">回到登入畫面</a></p>
-            </div> <!-- cd-reset-password -->
+            </div>
+            <!-- cd-reset-password -->
             <a href="#0" class="cd-close-form">關閉</a>
-        </div> <!-- cd-user-modal-container-fluid -->
-    </div> <!-- cd-user-modal -->
-
+        </div>
+        <!-- cd-user-modal-container-fluid -->
+    </div>
+    <!-- cd-user-modal -->
     <div id="footser-end">
-      <div class="container-fluid">
-
-        <div class="row">
-          <div class="col-md-12 col-xs-12">
-            2017 All Rights Reserved | by: <a href="#" target="_blank" style="color:#fff" >NCCU-WOTAN</a>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    2017 All Rights Reserved | by: <a href="#" target="_blank" style="color:#fff">NCCU-WOTAN</a>
+                </div>
+            </div>
         </div>
     </div>
-
-</div>
-</div>
-<!--./ footer-end End -->
-<!--  Jquery Core Script -->
-<script src="assets/js/jquery-1.10.2.js"></script>
-<!--  Core Bootstrap Script -->
-<script src="assets/js/bootstrap.js"></script>
-<!--  Custom Scripts -->
-<script src="assets/js/custom.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="assets/js/main.js"></script> <!-- Gem jQuery -->
-
+    <!--./ footer-end End -->
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Custom Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Gem jQuery -->
 </body>
