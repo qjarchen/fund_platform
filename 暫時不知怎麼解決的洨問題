@@ -5,14 +5,13 @@
 6.不知如何更改模板中的icon，因為他是用遠端連線引入的，包含icon的動畫效果。因此須研究該icon的網頁的系列的使用方法。
 //
 更新(3.21)
-7. userpage_list 頁籤效果沒成功(原因：有些瀏覽器不能用，盡量讓google Chorme能用為主。)
+7. userpage_list 頁籤效果沒成功(已解決)
 8. userpage_list 排版不好，右邊按鈕後空白過大，日期會在視窗縮小時會換行
 9. product-list,user_list,preEdit 下方換頁頁碼按鈕效果要加
 10.product-list上方排序效果自己做
 11.首頁 font-awsome icon更換
 12.nav-bar檔案的footer要固定置底(用fix)
 13.container 換成 container-fluid，裡面才不會換行
-14.home-page開始體驗的按鈕沒用(接preEdit)
 第7,8,9,10問題參考資料：
 https://datatables.net/
 第6,11問題參考資料
