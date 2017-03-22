@@ -19,4 +19,7 @@ https://datatables.net/
 第6,11問題參考資料
 http://fontawesome.io/
 
-
+更新(3.23)
+1.userpage-list內容會超出表格
+2.PreEdit-list 沒有刪除按鈕
+3.整理code
