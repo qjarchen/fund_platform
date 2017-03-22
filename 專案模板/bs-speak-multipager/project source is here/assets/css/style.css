@@ -808,7 +808,7 @@ xsigin/signup popup
   visibility: visible;
   opacity: 1;
 }
-.cd-user-modal.is-visible .cd-user-modal-container-fluid-fluid {
+.cd-user-modal.is-visible .cd-user-modal-container {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -816,7 +816,7 @@ xsigin/signup popup
   transform: translateY(0);
 }
 
-.cd-user-modal-container-fluid {
+.cd-user-modal-container {
   position: relative;
   width: 90%;
   max-width: 600px;
@@ -836,24 +836,24 @@ xsigin/signup popup
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.cd-user-modal-container-fluid .cd-switcher:after {
+.cd-user-modal-container .cd-switcher:after {
   content: "";
   display: table;
   clear: both;
 }
-.cd-user-modal-container-fluid .cd-switcher li {
+.cd-user-modal-container .cd-switcher li {
   list-style-type:none;
   width: 50%;
   float: left;
   text-align: center;
 }
-.cd-user-modal-container-fluid .cd-switcher li:first-child a {
+.cd-user-modal-container .cd-switcher li:first-child a {
   border-radius: .25em 0 0 0;
 }
-.cd-user-modal-container-fluid .cd-switcher li:last-child a {
+.cd-user-modal-container .cd-switcher li:last-child a {
   border-radius: 0 .25em 0 0;
 }
-.cd-user-modal-container-fluid .cd-switcher a {
+.cd-user-modal-container .cd-switcher a {
   display: block;
   width: 100%;
   height: 40px;
@@ -861,15 +861,15 @@ xsigin/signup popup
   background: #d2d8d8;
   color: #809191;
 }
-.cd-user-modal-container-fluid .cd-switcher a.selected {
+.cd-user-modal-container .cd-switcher a.selected {
   background: #FFF;
   color: #505260;
 }
 @media only screen and (min-width: 600px) {
-  .cd-user-modal-container-fluid {
+  .cd-user-modal-container {
     margin: 5em auto;
   }
-  .cd-user-modal-container-fluid .cd-switcher a {
+  .cd-user-modal-container .cd-switcher a {
     height: 70px;
     line-height: 70px;
   }
