@@ -3,7 +3,7 @@ $(document).ready(function(){
 var NumOfItem = $('.list-group-item').length,
     NumOfPage = NumOfItem/10,
     Item = $(".list-group").find('a'),
-    pagenav = $('.container').find('#pagenav');
+    pagenav = $('.container-fluid').find('#pagenav');
 
     // 先設立頁碼
     for (var i = NumOfPage ; i >0; i--) {            
