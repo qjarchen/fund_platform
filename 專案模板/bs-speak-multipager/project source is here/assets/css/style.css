@@ -747,10 +747,15 @@ display: block;
       height: 258px;
       padding-top:50px;
 }
+
 .blog-single a{
     margin:15px 3px 15px 0px;
-
 }
+
+.blog-single p, pre{
+    font-size: 12pt;
+}
+
 .panel-title-adjust{
 font-size: 14px;
 padding: 1px;
@@ -765,6 +770,10 @@ padding: 1px;
 
 .blog-comments h2 {
     padding-bottom:50px;
+}
+
+.blog-comments p {
+    font-size: 11pt;
 }
 
        /*=====================================
