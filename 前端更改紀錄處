@@ -22,5 +22,8 @@
 3.更改user-page縮小頁面換行問題+按鈕置中減少空白處
 4.更換首頁icon
 5.將footer固定在下面
-6.product-list點頁碼換頁效果做到一半(DC)
-7.
+6.product-list點頁碼換頁效果完成
+7.把所有的container改成container-fluid，好符合不同尺寸的螢幕比例。
+目前設定是左右各7.5%，內容佔中間的85%。
+8.將product-info的兩種按鈕寫在同一個頁面，差別在於able與disable
+9.
