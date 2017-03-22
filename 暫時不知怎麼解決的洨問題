@@ -19,11 +19,4 @@ https://datatables.net/
 第6,11問題參考資料
 http://fontawesome.io/
 
-更新(3.22 8:48 p.m)
-1.userpage_list 頁籤效果成功(已解決)，加一個class就解決了(a data-toggle="pill")
-2.buying頁面加上填寫信用卡的地方，刪掉註冊頁面中寫信用卡資訊的地方
-3.更改user-page縮小頁面換行問題+按鈕置中減少空白處
-4.更換首頁icon
-5.將footer固定在下面
-6.product-list點頁碼換頁效果做到一半(DC)
-7.
+
