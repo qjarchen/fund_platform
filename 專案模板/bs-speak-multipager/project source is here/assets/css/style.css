@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 /*=====================================
@@ -85,7 +85,7 @@ section {
 
 /*Menu Back Color*/
 .menu-back {
-    background-color:#123a4d;  
+    background-color:#123a4d;
 }
 /*Logo Image */
 .navbar-brand-logo {
@@ -111,7 +111,7 @@ section {
         color: #96a6ca;
     }
 
-/*top-menu links & margin*/    
+/*top-menu links & margin*/
 .navbar-nav > li > a {
     border-right: 1px solid #123444;
     margin: 5px 0px 5px 0px;
@@ -130,7 +130,7 @@ section {
 /*sub-menu*/
 .nav .dropdown-menu > li > a {
     padding: 15px 10px;
-    
+
     border-bottom: 1px solid #565AB1;
     margin: 5px;
 }
@@ -188,7 +188,7 @@ border-color: #A0761D;
  .control-icon {
            position:absolute;
            top:50%;
-           
+
                  }
 
  /* bootstrap adjustments */
@@ -227,7 +227,7 @@ right: auto;
     }
 
 
-    
+
 /*=====================================
   HOME PAGE STYLES GENERAL
     ===================================*/
@@ -235,7 +235,7 @@ right: auto;
 #home-service i {
     color:#ff6a00;
     cursor:pointer;
-    
+
 }
 #home-service i:hover {
     color:#565AB1;
@@ -249,7 +249,7 @@ right: auto;
     margin-right:10px;
     color:#ff6a00;
     cursor:pointer;
-    
+
 }
 #service-info i:hover{
     color:#000;
@@ -275,7 +275,7 @@ background-color:rgba(158, 158, 158, 0.15);
 
 .vedio-style {
     border: 0px;
-     width: 100%; 
+     width: 100%;
      min-height: 300px
 }
 
@@ -300,15 +300,15 @@ background-size: cover;
         color:#fff;
         font-size:16px;
         line-height:20px;
-        font-weight:800;       
+        font-weight:800;
        text-align:center;
     }
     #index2-header .overlay {
-              background: rgba(11, 9, 27, 0.7);        
+              background: rgba(11, 9, 27, 0.7);
         min-height:400px;
     }
 /*=====================================
-  CLIENTS TESTIMONIALS STYLES 
+  CLIENTS TESTIMONIALS STYLES
     ===================================*/
 .middle-section {
 padding-bottom: 50px;
@@ -348,7 +348,7 @@ max-width: 90px;
 }
 
 /*=====================================
-  MEDIA STYLES 
+  MEDIA STYLES
     ===================================*/
 #media-sec {
     background-color:#565AB1;
@@ -394,12 +394,12 @@ padding:30px;
 }
 
 /*=====================================
-  FOOTER STYLES 
+  FOOTER STYLES
     ===================================*/
 
 
 #footer-sec {
-   background-color:#123a4d; 
+   background-color:#123a4d;
    color:#fff;
    padding:20px;
 }
@@ -429,9 +429,21 @@ padding:30px;
 }
 #footser-end {
    text-align:right;
-   background-color:#123a4d; 
+   background-color:#123a4d;
    color:#fff;
-   padding:10px;/*
+   padding:10px;
+
+    /* 設定footer的高度 */
+    height: 40px;
+    box-sizing: border-box;
+    position: fixed;
+    /* 設定footer絕對位置在底部 */
+
+    bottom: 0;
+    /* 展開footer寬度 */
+    width: 100%;
+
+   /*
    position: absolute;
    width: 100%;
    bottom: 0;*/
@@ -439,10 +451,10 @@ padding:30px;
 
 
 /*=====================================
-  ANIMATIONS 
+  ANIMATIONS
     ===================================*/
   .rotate-icon:hover {
-   
+
      -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -453,7 +465,7 @@ padding:30px;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   cursor:pointer;
-    
+
   }
        .upfront-trans:hover {
            cursor:pointer;
@@ -541,7 +553,7 @@ border: 1px solid #e1e1e1;
 .portfolio-item h5 {
     text-align:center;
     background-color: #565AB1;
-    color:#fff;padding:10px 15px 10px 15px; 
+    color:#fff;padding:10px 15px 10px 15px;
 }
 .portfolio-item .overlay {
   position: absolute;
@@ -730,7 +742,7 @@ display: block;
     ===================================*/
 .facebook-div {
     border: none;
-     overflow: hidden; 
+     overflow: hidden;
      width: 235px;
       height: 258px;
       padding-top:50px;
@@ -764,16 +776,16 @@ padding: 1px;
    display:none!important;
   }
 }
-       
+
        @media all and (max-width: 845px) and (min-width: 100px) {
   .div-social-top{
    display:none!important;
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xsigin/signup popup 
+xsigin/signup popup
 
 -------------------------------- */
 .cd-user-modal {
@@ -796,7 +808,7 @@ xsigin/signup popup
   visibility: visible;
   opacity: 1;
 }
-.cd-user-modal.is-visible .cd-user-modal-container {
+.cd-user-modal.is-visible .cd-user-modal-container-fluid-fluid {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -804,7 +816,7 @@ xsigin/signup popup
   transform: translateY(0);
 }
 
-.cd-user-modal-container {
+.cd-user-modal-container-fluid {
   position: relative;
   width: 90%;
   max-width: 600px;
@@ -824,24 +836,24 @@ xsigin/signup popup
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.cd-user-modal-container .cd-switcher:after {
+.cd-user-modal-container-fluid .cd-switcher:after {
   content: "";
   display: table;
   clear: both;
 }
-.cd-user-modal-container .cd-switcher li {
+.cd-user-modal-container-fluid .cd-switcher li {
   list-style-type:none;
   width: 50%;
   float: left;
   text-align: center;
 }
-.cd-user-modal-container .cd-switcher li:first-child a {
+.cd-user-modal-container-fluid .cd-switcher li:first-child a {
   border-radius: .25em 0 0 0;
 }
-.cd-user-modal-container .cd-switcher li:last-child a {
+.cd-user-modal-container-fluid .cd-switcher li:last-child a {
   border-radius: 0 .25em 0 0;
 }
-.cd-user-modal-container .cd-switcher a {
+.cd-user-modal-container-fluid .cd-switcher a {
   display: block;
   width: 100%;
   height: 40px;
@@ -849,15 +861,15 @@ xsigin/signup popup
   background: #d2d8d8;
   color: #809191;
 }
-.cd-user-modal-container .cd-switcher a.selected {
+.cd-user-modal-container-fluid .cd-switcher a.selected {
   background: #FFF;
   color: #505260;
 }
 @media only screen and (min-width: 600px) {
-  .cd-user-modal-container {
+  .cd-user-modal-container-fluid {
     margin: 5em auto;
   }
-  .cd-user-modal-container .cd-switcher a {
+  .cd-user-modal-container-fluid .cd-switcher a {
     height: 70px;
     line-height: 70px;
   }
