@@ -2,16 +2,17 @@
 1.為解決無法引入assets/js/jquery-1.10.2.js檔的問題
 2.尚未將product-info 氛圍有購買和無購買兩種
 5.以上架的演算法是否能編輯
-6.不知如何更改模板中的icon，因為他是用遠端連線引入的，包含icon的動畫效果。因此須研究該icon的網頁的系列的使用方法。
+6.不知如何更改模板中的icon，因為他是用遠端連線引入的，包含icon的動畫效果。因此須研究該icon的網頁的系列的使用方法。(以解決)
+(方法：去font-awsome網頁查各個圖相對應的class,然後去網頁改class的名稱就好，因為環境都灌好了，只要有相對應的class就會找到)
 //
 更新(3.21)
 7. userpage_list 頁籤效果沒成功(已解決)
-8. userpage_list 排版不好，右邊按鈕後空白過大，日期會在視窗縮小時會換行
+8. userpage_list 排版不好，右邊按鈕後空白過大，日期會在視窗縮小時會換行(已解決)
 9. product-list,user_list,preEdit 下方換頁頁碼按鈕效果要加(DC在做)
 10.product-list上方排序效果自己做(劭潔)
 11.首頁 font-awsome icon更換(已解決)
 12.nav-bar檔案的footer要固定置底(用fix)(已解決)
-13.container 換成 container-fluid，裡面才不會換行(邵華解決)
+13.container 換成 container-fluid，裡面才不會換行(已解決，但還是不清楚差別)
 第7,8,9,10問題參考資料：
 https://datatables.net/
 第6,11問題參考資料
