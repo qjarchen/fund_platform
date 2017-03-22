@@ -13,7 +13,17 @@
 11.首頁 font-awsome icon更換(已解決)
 12.nav-bar檔案的footer要固定置底(用fix)(已解決)
 13.container 換成 container-fluid，裡面才不會換行(已解決，但還是不清楚差別)
+
 第7,8,9,10問題參考資料：
 https://datatables.net/
 第6,11問題參考資料
 http://fontawesome.io/
+
+更新(3.22 8:48 p.m)
+1.userpage_list 頁籤效果成功(已解決)，加一個class就解決了(a data-toggle="pill")
+2.buying頁面加上填寫信用卡的地方，刪掉註冊頁面中寫信用卡資訊的地方
+3.更改user-page縮小頁面換行問題+按鈕置中減少空白處
+4.更換首頁icon
+5.將footer固定在下面
+6.product-list點頁碼換頁效果做到一半(DC)
+7.
