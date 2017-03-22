@@ -1,5 +1,4 @@
-﻿
-/*=============================================================
+﻿/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -10,43 +9,43 @@
    
     ========================================================  */
 
-(function ($) {
+(function($) {
     "use strict";
     var mainApp = {
 
-        main_fun: function () {
-                      
-            //HOVER DROPDOWN SCRIPTS
-            $('ul.nav li.dropdown').hover(function () {
-                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-            }, function () {
-                $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-            });
+            main_fun: function() {
 
-            //TESTIMONIAL & SLIDEER SPEED
-            $('.carousel').carousel({
-                interval: 4000 //TIME IN MILLI SECONDS
-            })
-            // PRETTYPHOTO FUNCTION 
+                //HOVER DROPDOWN SCRIPTS
+                $('ul.nav li.dropdown').hover(function() {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+                }, function() {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+                });
 
-            $("a.preview").prettyPhoto({
-                social_tools: false
-            });
-           
-            /*====================================
-            WRITE YOUR SCRIPTS HERE
-            ======================================*/
-        },
+                //TESTIMONIAL & SLIDEER SPEED
+                $('.carousel').carousel({
+                        interval: 4000 //TIME IN MILLI SECONDS
+                    })
+                    // PRETTYPHOTO FUNCTION 
 
-        initialization: function () {
-            mainApp.main_fun();
+                $("a.preview").prettyPhoto({
+                    social_tools: false
+                });
+
+                /*====================================
+                WRITE YOUR SCRIPTS HERE
+                ======================================*/
+            },
+
+            initialization: function() {
+                mainApp.main_fun();
+
+            }
 
         }
+        // Initializing ///
 
-    }
-    // Initializing ///
-
-    $(document).ready(function () {
+    $(document).ready(function() {
         mainApp.main_fun();
     });
 
