@@ -1,10 +1,12 @@
 $(document).ready(function(){
 		
-var NumOfItem = $('.list-group-item').length,
+var Item = $('.list-group').children(),
+	NumOfItem = Item.length,
     NumOfPage = NumOfItem/10,
-    Item = $(".list-group").find('a'),
-    pagenav = $('.container').find('#pagenav');
+    pagenav = $('.pagination').find('#pagenav');
 
+
+    
     // 先設立頁碼
     for (var i = NumOfPage ; i >0; i--) {            
         pagenav.after('<li><a href="#">'+Math.ceil(i)+'</a></li>');  
@@ -16,7 +18,7 @@ var NumOfItem = $('.list-group-item').length,
     pageli.eq(1).addClass('active');
 
     // 隱藏其他
-    for (var i = 10 ; i <NumOfItem; i++) {
+    for (var i = 10 ; i < NumOfItem; i++) {
     	 Item.eq(i).hide();
     	 };
 
