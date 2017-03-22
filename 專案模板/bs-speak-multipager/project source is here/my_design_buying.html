@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row">
+                <div class="form-group row">
                     <div class="col-xs-2"></div>
                     <label class="col-xs-2 col-form-label">使用期限</label>
                     <div class="col-xs-3">
@@ -109,24 +109,31 @@
                     <div class="col-xs-2"></div>
                     <label class="col-xs-2 col-form-label">價格</label>
                     <div class="col-xs-3">
-                        <p>NTD$ 120</p>
+                        <p>NTD$ 120  / 每月</p>
                     </div>
-                    <p class="col-xs-2">/ 每月</p>
                 </div>
-                <br>
+                <hr>
                 <div class="form-group row">
                     <div class="col-xs-2"></div>
-                    <label class="col-xs-2 col-form-label">付費資訊</label>
-                    <div class="col-xs-7">
-                        <p>我是這個人的信用卡的末三號碼前面都是xx</p>
-                        <p>我是這個人的信用卡背面末三碼</p>
+                    <label class="col-xs-2 col-form-label" for="cardnumber">信用卡號</label>           
+                    <div class="col-xs-4">    
+                        <input class="form-control" id="cardnumber" type="text" placeholder="信用卡號">
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div style="text-align:center">
-                          <!-- <input class="form-check-input" type="checkbox"> 我同意<a href="my_design_terms.html">使用條款</a>，並且確認購買資訊無誤</input> -->
-                  </div>
+                <div class="form-group row">
+                    <div class="col-xs-2"></div>
+                    <label class="col-xs-2 col-form-label" for="goodthru-cvc">到期日 / 安全碼</label>           
+                    <div class="col-xs-2">    
+                        <input class="form-control" id="goodthru" type="text" placeholder="MM/YY">
+                    </div>
+                    <div class="col-xs-2">    
+                        <input class="form-control" id="cvc" type="text" placeholder="CVC">
+                    </div>
+                </div>
+                
+                <div class="row" style="text-align:center">
+                        <input class="form-check-input" type="checkbox" id="remember-mycard" checked>
+                        記住我的付款資訊</input>
                 </div>
                 <br>
                 <div style="text-align:center;">
