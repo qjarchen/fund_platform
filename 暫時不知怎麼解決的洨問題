@@ -7,11 +7,11 @@
 更新(3.21)
 7. userpage_list 頁籤效果沒成功(已解決)
 8. userpage_list 排版不好，右邊按鈕後空白過大，日期會在視窗縮小時會換行
-9. product-list,user_list,preEdit 下方換頁頁碼按鈕效果要加
-10.product-list上方排序效果自己做
+9. product-list,user_list,preEdit 下方換頁頁碼按鈕效果要加(DC在做)
+10.product-list上方排序效果自己做(劭潔)
 11.首頁 font-awsome icon更換(已解決)
 12.nav-bar檔案的footer要固定置底(用fix)(已解決)
-13.container 換成 container-fluid，裡面才不會換行
+13.container 換成 container-fluid，裡面才不會換行(邵華解決)
 第7,8,9,10問題參考資料：
 https://datatables.net/
 第6,11問題參考資料
