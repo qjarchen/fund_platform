@@ -570,8 +570,12 @@ h4 i {
 
 .general-subhead {
     background-color: #1e6080;
-    padding: 10px 100px 15px 100px;
+    padding: 10px 0px 15px;
     color: #fff;
+}
+
+#glyphicon{
+  padding-left: 7.5%;
 }
 
 #request-quote {
