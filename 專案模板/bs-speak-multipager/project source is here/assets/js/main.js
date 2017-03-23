@@ -2,12 +2,10 @@ jQuery(document).ready(function($) {
     var formModal = $('.cd-user-modal'),
         formLogin = formModal.find('#cd-login'),
         formSignup = formModal.find('#cd-signup'),
-        formnext = formModal.find('#cd-signup2'),
         formForgotPassword = formModal.find('#cd-reset-password'),
         formModalTab = $('.cd-switcher'),
         tabLogin = formModalTab.children('li').eq(0).children('a'),
         tabSignup = formModalTab.children('li').eq(1).children('a'),
-        signupLink = formSignup.find('.next-step'),
         forgotPasswordLink = formLogin.find('.cd-form-bottom-message a'),
         backToLoginLink = formForgotPassword.find('.cd-form-bottom-message a'),
         mainNav = $('.main-nav');
@@ -66,13 +64,6 @@ jQuery(document).ready(function($) {
         login_selected();
     });
 
-    //next step to sign up 
-    signupLink.on('click', function(event) {
-        event.preventDefault();
-        signup2_selected();
-    });
-
-
     function login_selected() {
         mainNav.children('ul').removeClass('is-visible');
         formModal.addClass('is-visible');
@@ -92,21 +83,12 @@ jQuery(document).ready(function($) {
         formForgotPassword.removeClass('is-selected');
         tabLogin.removeClass('selected');
         tabSignup.addClass('selected');
-        formnext.removeClass('is-selected');
     }
 
     function forgot_password_selected() {
         formLogin.removeClass('is-selected');
         formSignup.removeClass('is-selected');
         formForgotPassword.addClass('is-selected');
-        formnext.removeClass('is-selected');
-    }
-
-    function signup2_selected() {
-        formLogin.removeClass('is-selected');
-        formSignup.removeClass('is-selected');
-        formForgotPassword.removeClass('is-selected');
-        formnext.addClass('is-selected');
     }
 
     //REMOVE THIS - it's just to show error messages 

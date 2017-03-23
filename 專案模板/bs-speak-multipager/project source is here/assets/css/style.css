@@ -67,6 +67,7 @@ table.dataTable > tbody > tr> td:first-child{
 
 .general-subhead h1 {
     font-size: 28px;
+    display:inline-block;
 }
 
 .wrapper {
@@ -603,11 +604,7 @@ h4 i {
     color: #fff;
 }
 
-.general-subhead>h1{
-  display:inline-block;
-}
-
-#glyphicon{
+#beside-glyphicon-word{
   padding-left: 7.5%;
   display:inline-block;
   margin-right:10px;
@@ -1312,14 +1309,12 @@ xsigin/signup popup
 
 #cd-login,
 #cd-signup,
-#cd-signup2,
 #cd-reset-password {
     display: none;
 }
 
 #cd-login.is-selected,
 #cd-signup.is-selected,
-#cd-signup2.is-selected,
 #cd-reset-password.is-selected {
     display: block;
 }
