@@ -2,10 +2,11 @@ $(document).ready(function(){
 
 var PageRefresh = function(){
 
-var NumOfItem = $('.list-group-item').length,
+var Item = $('.list-group').children(),
+    NumOfItem = Item.length,
     NumOfPage = NumOfItem/10,
-    Item = $(".list-group").find('a'),
-    pagenav = $('.container').find('#pagenav');
+    pagenav = $('.pagination').find('#pagenav');
+
 
     // 先設立頁碼
     for (var i = NumOfPage ; i >0; i--) {            
@@ -16,7 +17,12 @@ var NumOfItem = $('.list-group-item').length,
     
     // 先設定第一頁
     pageli.eq(1).addClass('active');
+    
+    // 顯示前十
 
+    for (var i = 0 ; i <10; i++) {
+         Item.eq(i).show();
+         };
     // 隱藏其他
     for (var i = 10 ; i <NumOfItem; i++) {
          Item.eq(i).hide();
