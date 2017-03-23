@@ -25,6 +25,8 @@
     <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
     <!--  Google Font Style -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--  dataTables Table Style -->
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.css">
     <!--  Custom Style -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -74,7 +76,6 @@
             </div>
         </div>
     </div>
-
     <div class="general-subhead">
         <h3 style="display:inline-block; margin-right:10px" id="glyphicon">
             <a href=""><i class="glyphicon glyphicon-chevron-left"></i></a>
@@ -88,136 +89,130 @@
                 <li role="presentation" class="active"><a data-toggle="pill" href="#tab1">已購買</a></li>
                 <li role="presentation"><a data-toggle="pill" href="#tab2">已上架</a></li>
             </ul>
-            <br>
             <!-- List Start -->
             <div class="tab-content">
                 <!-- first page -->
                 <div id="tab1" class="content tab-pane active">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-lg-5 col-md-5 col-sm-4 col-xs-4">
-                                    <h5>標題</h5>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <h5>提供者</h5>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <h5>剩餘時間</h5>
-                                </div>
-                                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                                    <h5>收費方式</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="list-group">
-                            <div class="list-group-item">
-                                <div class="row">
-                                    <div class="col-lg-5 col-md-5 col-sm-4 col-xs-4">
-                                        <a href="my_design_product-info2.html" class="list-group-item userpage-item">
-                                            <h2>List group item heading</h2>
-                                            <p>List group item heading List group item heading List group item heading</p>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                        <br/>
-                                        <h5>IOT and bigdata</h5>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                        <br/>
-                                        <h5>28days left</h5>
-                                    </div>
-                                    <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                                        <br>
-                                        <h5>$ 120 /月</h5>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align:center">
-                                        <br>
-                                        <button type="button" class="btn  btn-userpage  btn-primary">使用</button>
-                                    </div>
-                                </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <table class="table table-hover table-bordered" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>演算法標題</th>
+                                            <th>說明</th>
+                                            <th>作者</th>
+                                            <th>定價</th>
+                                            <th>使用期限</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>演算法標題</th>
+                                            <th>說明</th>
+                                            <th>作者</th>
+                                            <th>定價</th>
+                                            <th>使用期限</th>
+                                            <th></th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="my_design_product-info2.html">Airi Satou</a></td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008/11/28</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary">使用</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michael Bruce</td>
+                                            <td>Javascript Developer</td>
+                                            <td>Singapore</td>
+                                            <td>29</td>
+                                            <td>2011/06/27</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary">使用</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Donna Snider</td>
+                                            <td>Customer Support</td>
+                                            <td>New York</td>
+                                            <td>27</td>
+                                            <td>2011/01/25</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary">使用</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
-                <!-- 第二層 -->
+                <!-- second page -->
                 <div id="tab2" class="content tab-pane ">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    <h5>標題</h5>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <h5>最後修改</h5>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <h5>收費方式</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="list-group">
-                            <div class="list-group-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <a href="my_design_product-info2.html" class="list-group-item userpage-item">
-                                            <h2>List group item heading</h2>
-                                            <p>List group item heading List group item heading List group item heading
-                                            </p>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                        <br/>
-                                        <h5>2017 / 03 / 04 23:59:59</h5>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                        <br>
-                                        <h5>$ 120 /月</h5>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align:center">
-                                        <br>
-                                        <button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button>
-                                    </div>
-                                </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <table class="table table-hover table-bordered" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>演算法標題</th>
+                                            <th>說明</th>
+                                            <th>作者</th>
+                                            <th>最近更新時間</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>演算法標題</th>
+                                            <th>說明</th>
+                                            <th>作者</th>
+                                            <th>最近更新時間</th>
+                                            <th></th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>2011/04/25</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Garrett Winters</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>2011/07/25</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ashton Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td>2009/01/12</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cedric Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td>2012/03/29</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="my_design_product-info2.html">Airi Satou</a></td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td>2008/11/28</td>
+                                            <td><button type="button" class="btn  btn-userpage  btn-primary" onclick="location.href='my_design_sales-status.html'">獲利狀況</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
@@ -234,8 +229,15 @@
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!--  Core Bootstrap Script -->
     <script src="assets/js/bootstrap.js"></script>
-    <!--  Custom Scripts -->
-    <script src="assets/js/custom.js"></script>
+
+    <!--  dataTables Script -->
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.table').DataTable();
+    });
+    </script>
 </body>
 
 </html>

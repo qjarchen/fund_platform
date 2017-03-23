@@ -41,8 +41,8 @@ body {
     background-color: #F7F7F7;
 }
 
-/*設定表格字體*/
-table.dataTable{
+/*設定表格效果*/
+table{
     background-color: white;
     font-size:14px; 
 }
@@ -54,7 +54,12 @@ table.dataTable > thead,tfoot > tr{
 table.dataTable > tbody > tr> td:first-child{
     font-size:16px;
 }
-/*設定表格字體結束*/
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #e8e8e8;
+}
+/*設定表格效果結束*/
 
 .text-center {
     text-align: center;
