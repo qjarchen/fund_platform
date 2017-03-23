@@ -292,6 +292,9 @@ section {
 /*=====================================
   HOME PAGE STYLES GENERAL
     ===================================*/
+#home-service{
+  margin-top:20px;
+}
 
 #home-service i {
     color: #ff6a00;
@@ -338,7 +341,8 @@ section {
 .vedio-style {
     border: 0px;
     width: 100%;
-    min-height: 300px
+    min-height: 300px;
+  
 }
 
 
@@ -526,10 +530,15 @@ h4 i {
     bottom: 0;
     /* 展開footer寬度 */
     width: 100%;
+
     /*
    position: absolute;
    width: 100%;
    bottom: 0;*/
+}
+
+#nccumis{
+  color: #fff;
 }
 
 
@@ -574,8 +583,14 @@ h4 i {
     color: #fff;
 }
 
+.general-subhead>h1{
+  display:inline-block;
+}
+
 #glyphicon{
   padding-left: 7.5%;
+  display:inline-block;
+  margin-right:10px;
 }
 
 #request-quote {

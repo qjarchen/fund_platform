@@ -28,6 +28,16 @@
     <!--  Custom Style -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <style>
+    #start{
+      padding-left:50px;
+      padding-right:50px;
+    }
+
+    #vedio-sec{
+      text-align:center;
+    }
+    </style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -79,14 +89,14 @@
                             這是一個提供演算法交易的平台，客戶可自行編撰自己的演算法，亦可瀏覽購買其他客戶的演算法
                         </p>
                         <div class="text-center">
-                            <button class="btn btn-primary" type="button" style="padding-left:50px;padding-right:50px;" onclick="location.href='my_design_register.html'">開始體驗</button>
+                            <button class="btn btn-primary" type="button" id="start" onclick="location.href='my_design_register.html'">開始體驗</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <section id="home-service" style="margin-top:20px;">
+    <section id="home-service">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-md-4  col-sm-4 ">
@@ -115,13 +125,11 @@
     </section>
     <section id="vedio-sec">
         <div class="container-fluid">
-            <div class="row pad-top-botm" style="text-align:center">
+            <div class="row pad-top-botm">
                 <div class="col-lg-6 col-md-6">
                     <h2>如何使用？ </h2>
                     <iframe class="vedio-style" src="https://www.youtube.com/embed/10Azx7egu8M"></iframe>
-                    <button class="btn btn-primary" type="button">
-                        了解更多 <span class="badge">+</span>
-                    </button>
+
                 </div>
             </div>
         </div>
@@ -142,6 +150,7 @@
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="col-lg-4 col-md-4">
                     <div class="media">
                         <div class="pull-left">
@@ -155,6 +164,7 @@
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="col-lg-4 col-md-4">
                     <div class="media">
                         <div class="pull-left">
