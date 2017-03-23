@@ -26,4 +26,29 @@
 7.把所有的container改成container-fluid，好符合不同尺寸的螢幕比例。
 目前設定是左右各7.5%，內容佔中間的85%。
 8.將product-info的兩種按鈕寫在同一個頁面，差別在於able與disable
-9.
+
+3.23 晚上 陳彥哲
+1.幫每個navbar箭頭處加上統一id，寫入統一的css，使之不會只固定在螢幕上不隨視窗大小移動
+2.在頁碼的地方加上 z-index=-1 ,使他不會在頁面往下滑的時候浮在footer上面
+(註：此處的更改在bootstrap.css第5003行上，改此檔案有點不妥)
+3.更改style，將個別檔案的特殊css需求都集中到head標籤中，將每個檔案一致的地方加到style.css上：
+  -每個footer的超連結都加上id:nccumis ,並新增在style.css設定其顏色為白色
+  -上面的navbar(箭頭與副標題處)因為格式統一，所以刪除每個檔案都有的額外style，統一在style.css上增加：general-subhead>h1，並設定為inline-block
+  -也是上方的navbar，其每個箭頭處之h3標籤地方都加上id:beside-glyphicon-word，並統一在style.css設定其屬性為：
+  padding-left: 7.5%;
+  display:inline-block;
+  margin-right:10px;
+  -增加style.css，設定新的id:home-service，設定其margin-top=20px(我不知道用在哪的，還請高人解釋)
+4.刪去term.html中遺留的登入功能
+5.增加userpage-list中上方箭頭的上一頁功能
+6.大更改!!大更改!!大更改!!
+  引入dataTables安裝包的css和js，並將userpage-list,product-list和preEdit-list中的三處表格重新設計
+  原本的div格式轉為table格式，並同時完成排序、搜尋、換頁的功能，其餘功能不變，並作內容上的調整
+  此外在style.css修正table中字體，並調整引入的js檔將原本的呈現在網頁中的英文內容改成中文
+  也放上表格的滑鼠滑過反光效果
+  並在某筆資料接上超連結，使其可進入product-info2頁面
+  方式是在那筆假資料的td裡夾a標籤
+7.更正檔名，將新完成的product-list.html換上以往用的名子，舊的product-list把檔名加上old，放置原處，以更新功能並符合原本之超連結設定
+8.將main.js,style.css中用在之前的登入功能，現在沒用的部分刪除
+9.調整nav-bar檔登入畫面中，忘記密碼按鈕的位置
+10.把reset.css刪掉
