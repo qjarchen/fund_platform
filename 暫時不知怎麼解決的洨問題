@@ -23,3 +23,7 @@ http://fontawesome.io/
 1.userpage-list內容會超出表格
 2.PreEdit-list 沒有刪除按鈕
 3.整理code
+4.小nav-bar位置是被寫死的
+5.頁碼也是被寫死的
+6.很多地方都用style硬堆
+7.排序功能出來，但會跟頁碼功能互相影響
