@@ -59,6 +59,10 @@ table.dataTable > tbody > tr> td:first-child{
 .table-hover > tbody > tr:hover > th {
     background-color: #e8e8e8;
 }
+.table-hover > tbody > tr >td:first-child:hover  {
+    text-decoration:underline;
+}
+
 /*設定表格效果結束*/
 
 .text-center {
