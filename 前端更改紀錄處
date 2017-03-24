@@ -61,4 +61,5 @@
 4.更改userpage-list,product-list,preEdit-list中的表格超連結效果，使得滑鼠移上去時整列反白，超連結設置在第一個column上，使用td:onclick="href:='...'"的方式
 5.上傳舊版的pre-edit至junk資料夾，命名為old
 6.將preEdit-list,userpage-list中表格的最後一欄的頭尾效果去掉，以符合內容為按鈕的那排。加在head中，使用display:none。
-7.
+7.change-page.js,filter.js,customer.js,prioduct-list(old),拿去junk，因為沒用
+8.把所有網頁最下方引用customer.js的地方註解掉
