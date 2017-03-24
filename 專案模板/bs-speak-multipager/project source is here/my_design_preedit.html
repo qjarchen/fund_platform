@@ -34,6 +34,12 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
           <![endif]-->
+    <!-- 讓按鈕那排的CSS消失-->
+    <style type="text/css">
+    table > thead > tr > th:last-child  {
+        display: none;
+    }
+    </style>
 </head>
 
 <body>
@@ -97,45 +103,38 @@
                 </div> -->
             <br>
             <br>
-            
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-xs-12">
-                            <table class="table table-hover table-bordered" cellspacing="0" width="100%">
-                                <thead>
-                                    <tr>
-                                        <th>演算法標題</th>
-                                        <th>註記</th>
-                                        
-                                        <th>最後編輯時間</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <th>演算法標題</th>
-                                        <th>註記</th>
-                                        
-                                        <th>最後編輯時間</th>
-                                        <th></th>
-                                    </tr>
-                                </tfoot>
-                                <tbody>
-                                    <tr>
-                                        <td onclick ="location.href='my_design_userpage-list.html'">Airi Satou</td>
-                                        <td>Accountant</td>
-                                       
-                                        <td>2008/11/28</td>
-                                        <td>
-                                            <button type="button" class="btn btn-group-justified  btn-danger">刪除</button>
-                                        </td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
-                       
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                    <table class="table table-hover table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>演算法標題</th>
+                                <th>註記</th>
+                                <th>最後編輯時間</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>演算法標題</th>
+                                <th>註記</th>
+                                <th>最後編輯時間</th>
+                                <th></th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td onclick="location.href='my_design_product-info2.html'">Airi Satou</td>
+                                <td>Accountant</td>
+                                <td>2008/11/28</td>
+                                <td>
+                                    <button type="button" class="btn btn-group-justified  btn-danger">刪除</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-           
         </div>
     </section>
     <!--./Blog Home End -->
